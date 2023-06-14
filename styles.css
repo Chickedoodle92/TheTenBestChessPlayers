@@ -1,0 +1,123 @@
+
+body{
+    background-color: #313131;
+}
+
+header
+{
+    background-image: url('Header_Background.png');
+    padding-top:2%;
+    border: 2px solid  white;
+    border-radius: 50px;
+}
+
+h1
+{
+   font-family: 'Inter';
+   font-size: 60px;
+   color: white;  
+   padding-top: 2%;
+   padding-left: 28%;
+}
+
+h3
+{ 
+    font-family: 'Inter';
+    font-size: 48px;
+    padding-top: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+p
+{
+    font-family: 'Inter' light;
+    font-size: 20px;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+article
+{
+  color: white;  
+  text-align: center;
+  background-color: #244E23;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 5px solid  white;
+      border-radius: 50px;
+}
+
+section
+{
+  color: white;  
+  text-align: center;
+  background-color: #244E23;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border: 5px solid  white;
+      border-radius: 50px;
+}
+
+  
+  button {
+
+      font-family: 'Inter' light;
+      color: white;
+      padding: 0.75% 1.5%;    
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 4.7%; 
+      background-color: white; 
+      color: black; 
+      transition-duration: 0.6s;
+      margin-bottom: 2%;
+      border: 2px solid  green;
+      border-radius: 10px;
+      }
+
+      button:hover 
+      {
+        background-color: black;
+        color: white;  
+      }
+
+      div
+      {
+        text-align: center;
+        margin-left: 23%;
+        margin-right: 23%;
+        border: 5px solid  white;
+        margin-bottom: -1%;
+      }
+
+      footer
+      {
+        background-color: black;
+        color:white;
+        border: 2px solid  white;
+        border-radius: 50px;
+        margin-top: 5%;
+        padding: 0;
+        font-family: 'Inter' light;
+      }
+
+      h5
+      {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      p.CopyRight
+      {
+        font-size: 15px;
+      }
+        
+  
