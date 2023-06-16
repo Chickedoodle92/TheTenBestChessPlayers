@@ -20,7 +20,7 @@ h1
    padding-left: 28%;
 }
 
-h3
+h2
 { 
     font-family: 'Inter';
     font-size: 48px;
@@ -73,7 +73,6 @@ section
       text-align: center;
       font-size: 16px;
       cursor: pointer;
-      display: inline-block;
       margin-right: 4.7%; 
       background-color: white; 
       color: black; 
@@ -89,15 +88,6 @@ section
         color: white;  
       }
 
-      div
-      {
-        text-align: center;
-        margin-left: 23%;
-        margin-right: 23%;
-        border: 5px solid  white;
-        margin-bottom: -1%;
-      }
-
       footer
       {
         background-color: black;
@@ -105,11 +95,13 @@ section
         border: 2px solid  white;
         border-radius: 50px;
         margin-top: 5%;
+        padding-bottom: 5%;
         padding: 0;
         font-family: 'Inter' light;
       }
 
-      h5
+
+      h3
       {
         text-align: center;
         font-size: 20px;
@@ -118,6 +110,7 @@ section
       p.CopyRight
       {
         font-size: 15px;
+        float:left
       }
-        
+
   

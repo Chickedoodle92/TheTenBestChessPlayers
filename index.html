@@ -9,17 +9,56 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="Logo.png">
+
+<meta charset="utf-8">
+<meta name="description" content="Introduction to Ten Best Chess Player In History">
+<meta name="keywords" content="Chess,Players,Best,Top,Intro">
+<meta name="author" content="Chickedoodle92">
+<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+
+<style>
+div
+{
+  text-align: center;
+  margin-left: 23%;
+  margin-right: 23%;
+  border: 5px solid  white;
+  margin-bottom: -1%;
+}
+
+.Turner
+{
+  font-family: 'Inter' black;  
+      color: white;
+      padding: 0.75% 1.5%;    
+      text-align: center;
+      cursor: pointer;
+      margin-left: 87%; 
+      background-color: #244E23; 
+      transition-duration: 0.6s;
+      margin-top: 4%;
+      margin-bottom: -4%;
+      border: 2px solid  white;
+      align-items: right;
+}
+
+</style>
+
+
+
 </head>
 
 <body>
+
+
 <header>
         
-         <img src="Logo.png" alt="Logo" width="75" style="float:left; padding-left: 5%" >
+         <img src="Logo.png" alt="Logo For Website" width="75" style="float:left; padding-left: 5%" >
 
          <h1>The Ten Best Chess Player </h1>
            
    
-        <button type="button" onclick="alert('Alexander Alek hine')" style="margin-left: 4.7%;">#10</button>
+        <button type="button" onclick="alert('Alexander Alekhine')" style="margin-left: 4.7%;">#10</button>
         <button type="button" onclick="alert('Mikhail Tal')">#9</button>
         <button type="button" onclick="alert('Emmanuel Lasker')">#8</button>
         <button type="button" onclick="alert('Vladimir Kramnik')">#7</button>
@@ -33,7 +72,7 @@
 
 <main>
   <article>  
-    <h3>Chess</h3>
+    <h2>Chess</h2>
 
     <p>
         Chess is a easy game to learn but difficult to master. However, this has 
@@ -44,7 +83,7 @@
   </article>
 
   <section>
-    <h3>Ranking</h3>
+    <h2>Ranking</h2>
 
     <p>#10 Alexander Alkehine&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#9 Mikhail Tal&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#8 Emmanuel Lasker</p>
     <p>#7 Vladimir Kramnik&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#6 Mikhail Botvinnik&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#5 Anatoly Karpov</p>
@@ -52,16 +91,29 @@
     <p>                          #1 Garry Kasparov</p>    
   </section>
 
+  
+
   <div>
     <img src="Timeline.png" alt="Timeline of World Champions" width="1000" height="346" class="Timeline">  
-  </article>
+  </div>
+
+  <form action="file:///C:/Users/Camper2023/Desktop/The%20Ten%20Best%20Chess%20PLayer%20in%20History/10-7.html">
+    <button class="Turner" type="submit">Next Page</button>
 
 </main>
 
 <footer>
-  <h5>Please Contact me at Bentleyjanse@gmail.com if you have any issue     </h5>
-  <p class="CopyRight">This is For Education Purpose Only&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                                                                                                                                          © 2023     </p>
+  <h3>Please Contact me at Bentleyjanse@gmail.com if you have any issue     </h3>
+  <p class="CopyRight">This is For Education Purpose Only © 2023&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; This document was last modified: </p>
+  <p id="demo" class="CopyRight" style="font-size:15px;"></p>
 </footer>
+
+<script>
+  let text = document.lastModified;
+  document.getElementById("demo").innerHTML = text;
+</script>
+
+
 
 </body>
 </html>  

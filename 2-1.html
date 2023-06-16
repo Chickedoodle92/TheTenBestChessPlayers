@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Ten Best Chess Players</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="Logo.png">
+
+<meta charset="utf-8">
+<meta name="description" content="The 2nd and 1st Best Chess Players Plus Chess Facts">
+<meta name="keywords" content="Chess,Players,Best,Top,Magnus Carlsen,'Garry Kasparov, Facts">
+<meta name="author" content="Chickedoodle92">
+<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+
+
+
+<style>
+.ButtonFact
+{
+    font-family: 'Inter' black;  
+      color: white;
+      padding: 3% 6%;    
+      text-align: center;
+      font-size: 35px;
+      cursor: pointer;
+      margin-left: 35%; 
+      background-color: #244E23; 
+      transition-duration: 0.6s;
+      margin-top: 2%;
+      margin-bottom: 0%;
+      border: 5px solid  white;
+      border-radius: 40px;
+      align-items: center;
+}
+
+article
+{
+    margin-right: 30%;
+    margin-left: 5%;
+    float:left
+}
+
+div
+{
+    margin-left: -21.5%;  
+    border-radius: 15%; 
+    margin-bottom: 1%;
+   
+}
+
+.Turner
+{
+  font-family: 'Inter' black;  
+      color: white;
+      padding: 0.75% 1.5%;    
+      text-align: center;
+      cursor: pointer;
+      background-color: #244E23; 
+      transition-duration: 0.6s;
+      margin-top: 4%;
+      margin-bottom: -4%;
+      border: 2px solid  white;
+}
+
+</style>
+
+</head>
+<body>
+
+    <script>
+    const facts = [
+        "There are over 319 billion possible combinations.",
+        "The longest chess game ever played was I.Nikolic vs. Arsovic, Belgrade 1989, which lasted 269 moves and ended in a draw.",
+        "The Spanish innovation of allowing pawns to advance two squares on their first move instead of one was introduced in 1280.",
+        "According to the US Chess Federation, there are an estimated 169 Octillion ways to play the first ten chess game moves.",
+        "The first-ever outer space chess game was held on June 9, 1970, between space and Earth. The game ended in a draw.",
+        "The last known victory of a human over a top-performing computer in a standard chess tournament was the Ponomariov vs. Fritz game on November 21, 2005.",
+        "The priest who was prohibited from playing chess created the folding chessboard.",
+        "In November 1988, a computer called DeepThought was the first to defeat an international grandmaster in Long Beach, California.",
+        "The name “Checkmate” comes from the Persian term “Shah Mat,” which means “the King is slain.”",
+        "In 1973, the Cleveland Police conducted a Chess Tournament raid.",
+        "A Knight’s tour has over 122 million possibilities.",
+        "For more than 26 years and 337 days, Dr. Emanuel Lasker from Germany held the World Chess Champion title longer than any other player ever.",
+        "In 1090, a Chessboard with alternating light and dark squares was introduced in Europe.",
+        "During World War II, several of the world’s best chess players were code breakers.",
+        "There are eight distinct Mate options in two moves and 355 distinct Mate options in three movements from the start position.",
+        "Russia is often referred to as the “Chess Kingdom.”",
+        "The first-year chess players are known as “rookies.”",
+        "In India, chess was initially known as the ‘Game of Kings.’",
+        "The youngest ever chess champion, still regarded as the greatest chess player of all time!",
+        "In 1951, Alan Turing developed the world’s first computer chess program.",
+        "The World Chess Federation, or Fédération Internationale des Échecs, is the formal name of FIDE, which alternatively means, International Chess Federation.",
+        "Chess is a popular game that has been shown to improve memory function—often mentioned in psychology books as a highly effective way to advance one’s intelligence.",
+        "Chess enjoyed a resurgence during the Cold War.",
+        "Janos French, a Hungarian player, set the record in 1960 for playing 52 different opponents concurrently, blindfolded.",
+        "The 1972 World Chess Championship, dubbed the “Match of the Century,” was held in Reykjavik between Boris Spassky and Robert “Bobby” Fischer.",
+        "In a match between Mason-Mackenzie in London in 1882, there were 72 consecutive Queen Moves.",
+        "The 100 Moves is a chess match between M. Walker and Thorton that was played without capture.",
+        "There are over one thousand chess distinct openings.",
+        "Castling used to be two moves long, with R-KB1 moving to a single move and K-KN1 on the following.",
+        "On the TV show Star Trek, Kirk, and Spock have engaged in three chess games. All three games were won by Kirk.",
+        "In 1972, Iceland established a 24-hour Police Guard around the chess match seats of Fischer and Spassky’s to keep out intruders in the chess game.",
+        "After one move each, there are 400 distinct possibilities in the game of chess.",
+        "The tiniest handmade chess set is 8 mm x 8 mm or 0.32 in x 0.32 in size.",
+        "After three chess moves, there are over 9 million different possibilities.",
+        "The biggest chess piece, a king piece, which is 6.09 m (20 ft.) tall, is the most significant tallest chess piece in existence.",
+        "The most popular and biggest chess lesson has 1,459 participants.",
+        "Chess originated in Northern India during the Gupta Dynasty when its predecessors wrote it down.",
+        "Ivory chess pieces, which are believed to be the world’s oldest archeological chess pieces, were found in Uzbekistan.",
+        "The oldest chess manual known to have existed was written in Arabic and originated around 840.",
+        "An IBM supercomputer defeated and outsmarted Garry Kasparov in 1997.",
+        "The world’s most expensive chess set, which includes diamonds and emeralds, is worth more than $9.8 million.",
+        "Congrats! You found this secert Easter Egg. You had a 1 in 42 chance to find this.",
+        " The first-ever outer space chess game was held on June 9, 1970, between space and Earth. The game ended in a draw.”"]
+        function randomize() {
+            fact = facts[Math.floor(Math.random()*facts.length)]
+            return fact
+        } </script>
+
+    <header>
+        
+        <img src="Logo.png" alt="Logo For Website" width="75" style="float:left; padding-left: 5%" >
+
+        <h1>The Ten Best Chess Player </h1>
+          
+  
+       <button type="button" onclick="alert('Alexander Alekhine')" style="margin-left: 4.7%;">#10</button>
+       <button type="button" onclick="alert('Mikhail Tal')">#9</button>
+       <button type="button" onclick="alert('Emmanuel Lasker')">#8</button>
+       <button type="button" onclick="alert('Vladimir Kramnik')">#7</button>
+       <button type="button" onclick="alert('Mikhail Botvinnik')">#6</button>
+       <button type="button" onclick="alert('Anatoly Karpov')">#5</button>
+       <button type="button" onclick="alert('Jose Raul Capablanca ')">#4</button>
+       <button type="button" onclick="alert('Bobby Fischer')">#3</button>
+       <button type="button" onclick="alert('Magnus Carlsen')">#2</button>
+       <button type="button" onclick="alert('Garry Kasparov')">#1</button>      
+</header>
+
+<article>  
+  
+     
+        <h2>#2 Magnus Carlsen</h2>
+    
+        <p>
+            Magnus Carlsen has been the number one ranked player since 2013 and has held onto it till recently. 
+            He was the youngest player to pass 2800 ELO and reached a peaked ELO of 2889. 
+            He held the world champion in blitz, rapid, and standard in addition to a 125 undefeated streak.
+        </p>
+    
+      </article>
+    
+    <div>
+      <img src="2.png" alt="A Picture of Magnus Carlsen" width="250" height="250" style="margin-left: -21.5%; margin-top: 2%; border-radius: 20px; border: 5px solid  white;">
+     </div>
+    
+      <article>  
+        <h2>#1 Garry Kasparov</h2>
+    
+        <p>
+            He is the youngest world champion at 22 years old and reached a peak ELO of 2856. 
+            He retired in 2005 and trained two famous grand master, Mangus Carlsen and Hikrua Nakamura. 
+            He held the world champion title from 1985 to 2000.
+        </p>
+      </article>
+      <div>
+      <img src="1.png" alt="A Picture of Garry Kasparov" width="250" height="250" style="margin-left: -21.5%; margin-top: 2%; border-radius: 20px; border: 5px solid  white;">
+    </div>
+
+
+  <button type="button" onclick="alert(randomize())" class="ButtonFact">Generate A Fun Fact!</button>
+
+  <form action="file:///C:/Users/Camper2023/Desktop/The%20Ten%20Best%20Chess%20PLayer%20in%20History/6-3.html">
+    <button class="Turner" type="submit" style="margin-left: 7%;">Previous Page</button>
+
+  
+
+
+<footer>
+    <h3>Please Contact me at Bentleyjanse@gmail.com if you have any issue</h3>
+    <p class="CopyRight">This is For Education Purpose Only © 2023&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; This document was last modified:</p>
+    <p id="demo" class="CopyRight" style="font-size:15px;"></p>
+  </footer>
+
+  <script>
+    let text = document.lastModified;
+    document.getElementById("demo").innerHTML = text;
+  </script>
+
+
+
+
+</body>
